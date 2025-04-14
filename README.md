@@ -1,8 +1,17 @@
-# Welcome to your Lovable project
+# RUNE - Rutgers University Network Evaluator
 
-## Project info
+A modern, responsive web interface for DNS diagnostics and configuration analysis.
 
 **URL**: https://lovable.dev/projects/bf824e68-811b-4106-b550-b4f1220aecf3
+
+## Features
+
+- DNS record lookup and display
+- SPF, DMARC, and DKIM validation
+- DNS zone transfer (AXFR) querying
+- Configuration issue detection
+- Light/Dark mode support
+- Mobile-friendly responsive design
 
 ## How can I edit this code?
 

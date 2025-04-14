@@ -19,6 +19,13 @@ export default {
 		},
 		extend: {
 			colors: {
+				rune: {
+					primary: '#0042a9',
+					secondary: '#cc0033',
+					accent: '#5f6a72',
+					light: '#f5f5f5',
+					dark: '#222222'
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
