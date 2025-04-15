@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -20,10 +21,10 @@ export default {
 		extend: {
 			colors: {
 				rune: {
-					primary: '#0042a9',
-					secondary: '#cc0033',
+					primary: '#cc0033', // Changed to red
+					secondary: '#f5f5f5', // Light gray/off-white
 					accent: '#5f6a72',
-					light: '#f5f5f5',
+					light: '#ffffff', // Pure white
 					dark: '#222222'
 				},
 				border: 'hsl(var(--border))',

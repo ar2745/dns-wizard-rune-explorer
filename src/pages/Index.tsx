@@ -116,11 +116,11 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen dark:bg-gray-900">
-      <div className="container mx-auto py-8 px-4">
-        <header className="flex justify-between items-center mb-8">
+    <div className="min-h-screen bg-rune-light dark:bg-gray-900">
+      <div className="container mx-auto py-8 px-4 max-w-5xl">
+        <header className="flex justify-between items-center mb-8 border-b border-rune-secondary pb-4">
           <div>
-            <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-rune-primary to-rune-secondary">
+            <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-rune-primary to-rune-primary/70">
               RUNE
             </h1>
             <p className="text-muted-foreground">
@@ -140,7 +140,7 @@ const Index = () => {
           )}
         </main>
         
-        <footer className="mt-12 text-center text-sm text-muted-foreground">
+        <footer className="mt-12 text-center text-sm text-muted-foreground pt-4 border-t border-rune-secondary">
           <p>© 2025 Rutgers University Network Evaluator (RUNE)</p>
         </footer>
       </div>
